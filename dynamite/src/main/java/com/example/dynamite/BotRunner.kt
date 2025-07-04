@@ -6,5 +6,6 @@ object BotRunner {
     @JvmStatic
     fun main(args: Array<String>) {
         val results: Results = DynamiteRunner.playGames({ MyBot() })
+        
     }
 }
